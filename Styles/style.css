@@ -1,0 +1,106 @@
+.navbar{
+    padding: 10px 30px !important;
+   
+}
+
+.bg-dark{
+    background-color: rgb(11, 21, 83) !important;
+}
+
+#search{
+    background-color: rgba(0, 0, 0, 0.337) !important;
+    color: whitesmoke !important;
+}
+
+#search::placeholder {
+    color: whitesmoke !important; /* Cambia este color al que desees */
+}
+
+/* Estilo general del botón */
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px; 
+    color: #fff;
+    background-color: #0f2f53; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+/* Efecto hover para el botón */
+.btn:hover {
+    background-color: #0056b3; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+/* Efecto activo para el botón */
+.btn:active {
+    background-color: #004080; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transform: translateY(2px); 
+}
+
+.btn-edit{
+    background-color: #ab9421; 
+    padding: -2px -5px;
+}
+
+.btn-edit:hover{
+    background-color: #625513; 
+}
+
+.btn-delete{
+    background-color: #ab2a21; 
+    padding: 5px 10px;
+}
+
+.btn-delete:hover{
+    background-color: #591511; 
+}
+
+thead{
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: rgb(11, 21, 83);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
